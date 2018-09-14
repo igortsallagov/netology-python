@@ -8,7 +8,6 @@ class Animal:
   voice = 'Hmm...'
   subclass = 'Mammal'
   tame = 'Domestic'
-  sum_weight = 0
   animals = {}
   
   def __init__(self, name, color, weight):
@@ -23,9 +22,6 @@ class Animal:
   
   def speak(self):
     print('{} says: {}'.format(self.name, self.voice))
-    
-  def __add__(self, other):
-    print(self.weight + other.weight)
     
 class Mammal(Animal):
   milked = False
