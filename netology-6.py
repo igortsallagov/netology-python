@@ -44,4 +44,4 @@ def get_shopping_list(dishes, person_count):
     print_shopping_list(shopping_list)
 
 
-print(get_shopping_list(['Омлет', 'Фахитос'], 13))
+get_shopping_list(['Омлет', 'Фахитос'], 13)
